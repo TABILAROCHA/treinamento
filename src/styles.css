@@ -1,1 +1,100 @@
 /* You can add global styles to this file, and also import other style files */
+style
+  :host {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: #496075;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4
+
+  {
+    margin: 30px 0;
+    color: #496075;
+    font: Medium 18px/25px Roboto;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .spacer {
+    flex: 1;
+  }
+
+  .Menu {
+    height: 60px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    background-color: #1E59A8;
+    color: white;
+    font-weight: 600;
+  }
+  .box1 {
+    margin: -23.5px;
+    align-items: center;
+    display: flex;
+    left: 0px;
+    width: 100%;
+    height: 450px;
+    background: #E9E9E9 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  .box2 {
+    margin: 0 auto;
+    top: 133px;
+    left: 303px;
+    width: 675px;
+    height: 251px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 16px #00000029;
+    border-radius: 16px;
+    opacity: 1;
+
+  }
+  .box11 {
+    margin: -23.5px;
+    align-items: center;
+    display: flex;
+    left: 0px;
+    width: 100%;
+    height: 190px;
+    background: #E9E9E9 0% 0% no-repeat padding-box;
+    opacity: 1;
+  }
+  .boxpes {
+    margin: 0 auto;
+    top: 50px;
+    left: 50px;
+    width: 150px;
+    height: px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 16px #00000029;
+    border-radius: 16px;
+    opacity: 1;
+
+  }
+  .bot {
+    background-color: #1E59A8;
+  }
+
+
+  .fundo {
+    background: #F5F5F5;
+  }
+
+  .toolbar img {
+    margin: 0 16px;
+  }
+
+
+
+
+

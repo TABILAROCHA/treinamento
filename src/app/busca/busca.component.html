@@ -1,0 +1,26 @@
+<div class="fundo d-flex box1">
+
+  <div class="d-flex box2 m-auto"><br>
+    <div class="d-flex w-100 flex-column p-5">
+      <h5>Selecione umas das opções de busca:</h5>
+      <div class="d-flex">
+        <div ngbDropdown class="btn-group">
+          <button class="btn btn-bg-white dropdown-toggle" id="data-toggle" ngbDropdownToggle dropdown-toggle>Selecione</button>
+          <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+            <button ngbDropdownItem>Número do Sinistro</button>
+            <button ngbDropdownItem>CPF/CNPJ</button>
+            <button ngbDropdownItem>Placa</button>
+            <button ngbDropdownItem>Veículo</button>
+          </div>
+        </div>
+
+      </div>
+      <button type="button" class="btn btn-primary ml-auto mt-auto">Buscar</button>
+    </div>
+
+<!-- Exemplo de ngIf e ngFor -->
+
+<!-- <h5 *ngIf= "numero !== 1">Exibido</h5> -->
+<!-- <h5 *ngIf= "false">Não será Exibido</h5> -->
+
+
