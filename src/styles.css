@@ -83,6 +83,8 @@ style
   }
   .bot {
     background-color: #1E59A8;
+    width: 180px;
+    height: 180px;
   }
 
 
@@ -92,6 +94,10 @@ style
 
   .toolbar img {
     margin: 0 16px;
+  }
+
+  .meuazul {
+    background: #1E59A8;
   }
 
 

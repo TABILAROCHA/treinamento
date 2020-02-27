@@ -1,5 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark Menu">
-  <a class="navbar-brand" href="#" >Acompanhamento de Sinistro 2019190452</a>
+  <a class="navbar-brand" href="#" >Acompanhamento de Sinistro 2019190452</a><div class = "ml-auto">Sair
+  <img src="../../assets/imag/sair2.png" width="30" class="ml-auto"></div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon">
     </span>
@@ -37,8 +38,144 @@
   <span class="form-control border border-light" type="text" placeholder="" readonly>
     <img src="../../assets/imag/atender.png" width="35" ><br>Chat</span>
 
+    <!-- Exemplo de icon -->
+    <!-- <i class="material-icons" style="color: red;">time_to_leave</i> -->
+
+  </div>
 </div>
 
+<div class="container-fluid" >
+  <div class="row"></div>
+  <section class=""><strong>TIPO DE EVENTO</strong></section>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">COLISÃO | INDENIZAÇÃO INTEGRAL</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  </nav><br>
+
+  <div class="container-fluid mt-5 m-auto">
+  <button type="button" class="btn btn-outline-primary mr-2 bot" placement="bottom"
+              ngbPopover="" popoverTitle="Seu aviso de sinistro foi comunicado com sucesso">
+   <img src="../../assets/imag/carro.png" width="60"><br>Aviso
+
+</button>
+  <img src="../../assets/imag/seta.png" width="30">
+
+  <button type="button" class="btn btn-outline-primary mr-2 bot" placement="bottom"
+        ngbPopover="" popoverTitle="Seu veículo será vistoriado até o dia 22/03/2019">
+  <img src="../../assets/imag/ferramenta.jpg" width="80"><br> Vistoria
+</button>
+  <img src="../../assets/imag/seta.png" width="30">
+
+<button type="button" class="btn btn-outline-primary mr-2 bot" placement="bottom"
+        ngbPopover="" popoverTitle="Confira a relação de documentos e o tipo de indenização">
+  <img src="../../assets/imag/caixa.arquivo.jpg" width="80"><br>Processo
+</button>
+  <img src="../../assets/imag/seta.png" width="30">
+
+<button type="button" class="btn btn-outline-primary mr-5 bot " placement="bottom"
+        ngbPopover=""
+        popoverTitle="Seu veículo será vistoriado até o dia 22/03/2019 desde que estaja no local abaixo">
+  <img src="../../assets/imag/concluido.png" width="70"><br> Conclusão
+</button>
+
+<button type="button" class="btn btn-primary btn-lg "><img src="../../assets/imag/mensagem.png" width="30"> Mensagens</button>
+
+</div>
+</div>
+
+<div class="d-flex box2 m-5"><br>
+  <div class="d-flex w-100 flex-column p-5">
+    <h5>Seu veículo será vistoriado até o dia 22/03/2019 desde que esteja no local abaixo.<br>
+      <p>Aconpanhe aqui pelo site ou e-mail cadastrado.</p>
+      <p>Local da vistoria: RS SERVICO AUTOMATIVOS<p>
+      <p>Endereço: Avenida ARMANDO DE GODOY, 208 Bairro: SETOR NEGRÃO DE LIMA</p>
+      <p>Cidade: GOIANIA | UF: GO</p>
+      <P>Telefone: (062) 3999-7500</P>
+    </h5>
+
+        </div>
+      </div>
+
+      <div class="">
+        <div class="row justify-content-end">
+          <div class="col-3">
+      <ngb-accordion #acc="ngbAccordion">
+        <ngb-panel id="toggle-1" title="Dados do Cliente">
+          <ng-template ngbPanelContent>
+            <p>Nome</p>
+            <h6>Maria Pedro dos Santos</h6>
+            <p>Telefone:</p>
+            <h6>(21) 99234-5687</h6>
+            <p>E-mail:</p>
+            <h6>maria.da.silva@gmail.com</h6>
+            <input class="btn btn-primary" type="submit" value="2° Via de Apólice"><br>
+              <br><button type="button" class="btn btn-outline-primary">Resumo da cobertura</button>
+          </ng-template>
+        </ngb-panel>
+        <ngb-panel id="toggle-2" title="Dados do Sinistro">
+          <ng-template ngbPanelContent>
+            <p>Data do Aviso</p>
+            <h6>20/02/2019</h6>
+            <p>Data da Ocorrência</p>
+            <h6>18/02/2019</h6>
+            <p>N° da Apólice</p>
+            <h6>01.18.26.000045-000</h6>
+
+              <br><button type="button" class="btn btn-outline-primary">Resumo do Sinistro</button>
+
+          </ng-template>
+        </ngb-panel>
+        <ngb-panel id="toggle-3" title="Contato da Oficina">
+          <ng-template ngbPanelContent>
+            <h6>Reagendar Vistória</h6>
+            <p>Oficina</p>
+            <h6>Auto Palace</h6>
+            <p>Telefone:</p>
+            <h6>(21) 3234-5678</h6>
+            <p>Celular:</p>
+            <h6>(21) 99121-5678</h6>
+            <p>E-mail:</p>
+            <h6>autopalace@gmail.com</h6>
+            <p>Endereço</p>
+            <h6>Rua Quitanduba, 267 Butantã-São Paulo-SP</h6>
+
+                <br><h6>Trocar Oficina</h6>
+
+            <br><button type="button" class="btn btn-outline-primary">Abrir no mapa</button><br>
+            <br><input class="btn btn-primary" type="submit" value="Orçamento">
+
+          </ng-template>
+        </ngb-panel>
+      </ngb-accordion>
+
+      <hr/>
+        </div>
+      </div>
+    <div class="container">
+
+      <h6 class="display-4 border-top border-white pt-3">Envio de Documento <img src="../../assets/imag/interrogacao.jpg" width="30" ></h6>
+      <hr>
+      <div class="jumbotron mb-4">
+        <h1 class="display-4 font-weight-bold"></h1>
+        <p class="lead text-secondary ml-auto">Carteira de Habilitação <button type="button" class="btn btn-success mx-3">Enviado</button>
+          <button type="button" class="btn btn-light">Editar</button></p>
+        <p class="lead text-secondary">Boletim de Ocorrência <img src="../../assets/imag/error.png" width="30"><button type="button" class="btn btn-danger">Reenviar</button></p>
+        <p class="lead text-secondary">Comprovante de pagamento IPVA/DPVAT<img src="../../assets/imag/clips-5.svg" width="20"></p>
+          <!-- <form>
+           <div class="form-group">
+            <label for="FormControl"></label>
+            <input type="file" class="form-control-file" id="FormControl">
+          </div>
+        </form>-->
+        <p class="lead text-secondary">Comprovante de Redidência <img src="../../assets/imag/clips-5.svg" width="20"></p>
+        <p class="lead text-secondary">DUT de Transferência <img src="../../assets/imag/clips-5.svg" width="20"></p>
+        <p class="lead text-secondary">Termo de quitação <img src="../../assets/imag/clips-5.svg" width="20"></p>
+
+
+      </div>
+    </div>
 
 
 
