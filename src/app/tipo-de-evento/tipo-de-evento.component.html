@@ -10,7 +10,6 @@
 
 </nav>
 
-
 <div class="container-fluid box11">
   <div class="row">
     <div class="col-sm"><strong>Cliente</strong></div>
@@ -48,77 +47,26 @@
   </div>
 </div><br><br>
 
+
 <div class="container-fluid">
   <div class="row justify-content-start">
-  <div class="col-9">
+  <div class="col-10">
   <section class=""><strong>TIPO DE EVENTO</strong></section>
   <br class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">COLISÃO | INDENIZAÇÃO INTEGRAL</a>
+    <a class="navbar-brand" href="#">COLISÃO | INDENIZAÇÃO INTEGRAL</a><br>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="container">
-      <div class="row justify-content-end">
-        <div class="col-3">
-          <ngb-accordion #acc="ngbAccordion">
-            <ngb-panel id="toggle-1" title="Dados do Cliente">
-              <ng-template ngbPanelContent>
-                <p>Nome</p>
-                <h6>Maria Pedro dos Santos</h6>
-                <p>Telefone:</p>
-                <h6>(21) 99234-5687</h6>
-                <p>E-mail:</p>
-                <h6>maria.da.silva@gmail.com</h6>
-                <input class="btn btn-primary" type="submit" value="2° Via de Apólice"><br>
-                <br><button type="button" class="btn btn-outline-primary">Resumo da cobertura</button>
-              </ng-template>
-            </ngb-panel>
-            <ngb-panel id="toggle-2" title="Dados do Sinistro">
-              <ng-template ngbPanelContent>
-                <p>Data do Aviso</p>
-                <h6>20/02/2019</h6>
-                <p>Data da Ocorrência</p>
-                <h6>18/02/2019</h6>
-                <p>N° da Apólice</p>
-                <h6>01.18.26.000045-000</h6>
 
-                <br><button type="button" class="btn btn-outline-primary">Resumo do Sinistro</button>
 
-              </ng-template>
-            </ngb-panel>
-            <ngb-panel id="toggle-3" title="Contato da Oficina">
-              <ng-template ngbPanelContent>
-                <h6>Reagendar Vistória</h6>
-                <p>Oficina</p>
-                <h6>Auto Palace</h6>
-                <p>Telefone:</p>
-                <h6>(21) 3234-5678</h6>
-                <p>Celular:</p>
-                <h6>(21) 99121-5678</h6>
-                <p>E-mail:</p>
-                <h6>autopalace@gmail.com</h6>
-                <p>Endereço</p>
-                <h6>Rua Quitanduba, 267 Butantã-São Paulo-SP</h6>
-
-                <br>
-                <h6>Trocar Oficina</h6>
-
-                <br><button type="button" class="btn btn-outline-primary">Abrir no mapa</button><br>
-                <br><input class="btn btn-primary" type="submit" value="Orçamento">
-
-              </ng-template>
-            </ngb-panel>
-          </ngb-accordion>
-
-          <hr/>
-        </div>
-      </div>
-<br>
 
 
   <div class="container-fluid mt-5 m-auto">
+    <div class="row">
+      <div class="col-10">
+
     <button type="button" class="btn btn-outline-primary mr-2 bot" placement="bottom" ngbPopover=""
       popoverTitle="Seu aviso de sinistro foi comunicado com sucesso">
       <img src="../../assets/imag/carro.png" width="60"><br>Aviso
@@ -143,59 +91,62 @@
       <img src="../../assets/imag/concluido.png" width="70"><br> Conclusão
     </button>
 
-    <button type="button" class="btn btn-primary btn-lg "><img src="../../assets/imag/mensagem.png" width="30">
+    <button type="button" class="btn btn-primary"><img src="../../assets/imag/mensagem.png" width="20">
       Mensagens</button>
 
 
-</div>
-
-
-<div class="d-flex box3 m-5"><br>
-  <div class="d-flex w-100 flex-column p-5">
+      </div>
+    </div>
+  </div>
+<br><br>
+<div class="d-flex box3 m-4">
+  <div class="d-flex w-100 flex-column p-3">
     <h5>Seu veículo será vistoriado até o dia 22/03/2019 desde que esteja no local abaixo.<br>
       <p>Aconpanhe aqui pelo site ou e-mail cadastrado.</p>
       <p>Local da vistoria: RS SERVICO AUTOMATIVOS<p>
           <p>Endereço: Avenida ARMANDO DE GODOY, 208 Bairro: SETOR NEGRÃO DE LIMA</p>
           <p>Cidade: GOIANIA | UF: GO</p>
-          <P>Telefone: (062) 3999-7500</P>
+          <P>Telefone: (062) 3999-7500.</P>
     </h5>
 
   </div>
 </div>
-</div>
+</div></div></div>
 
 
+
+  <hr>
   <div class="container">
   <div class="row">
-    <div class="col-9">
+    <div class="col-10">
 
-    <h6 class="display-4 border-top border-white pt-3">Envio de Documento <img src="../../assets/imag/interrogacao.jpg"
-        width="30" class="ml-5"></h6>
+    <h3 class="border-top border-white">Envio de Documento <img src="../../assets/imag/interrogacao.jpg"
+        width="30" class="ml-5"></h3>
     <hr>
     <div class="">
       <h1 class="display-4 font-weight-bold"></h1>
       <p class="lead text-secondary ml-auto">Carteira de Habilitação <button type="button"
-          class="btn btn-success mx-3">Enviado</button>
+          class="btn btn-success btn-enviado">Enviado</button>
         <button type="button" class="btn btn-light">Editar</button></p>
       <p class="lead text-secondary">Boletim de Ocorrência <img src="../../assets/imag/error.png" width="30"><button
-          type="button" class="btn btn-danger">Reenviar</button></p>
+          type="button" class="btn btn-danger btn-reenviar">Reenviar</button></p>
 
 
         <div _ngcontent-dim-c103="" class="input-group">
           Comprovante de pagamento IPVA/DPVAT
           <div _ngcontent-dim-c103="" class="custom-file">
             <input _ngcontent-dim-c103="" style="width:0" type="file" id="inputGroupFile04" class="custom-file-input">
-            <label _ngcontent-dim-c103="" for="inputGroupFile04">
+            <label _ngcontent-dim-c103="" for="inputGroupFile04" class="btn-IPVA">
               <img src="../../assets/imag/clips-5.svg" width="20">
             </label>
           </div>
-        </div>
+
 
         <div _ngcontent-dim-c103="" class="input-group">
           Comprovante de conta bancária
           <div _ngcontent-dim-c103="" class="custom-file">
             <input _ngcontent-dim-c103="" style="width:0" type="file" id="inputGroupFile04" class="custom-file-input">
-            <label _ngcontent-dim-c103="" for="inputGroupFile04">
+            <label _ngcontent-dim-c103="" for="inputGroupFile04" class="btn-bancaria">
               <img src="../../assets/imag/clips-5.svg" width="20">
             </label>
           </div>
@@ -205,7 +156,7 @@
           Comprovante de Residência
           <div _ngcontent-dim-c103="" class="custom-file">
             <input _ngcontent-dim-c103="" style="width:0" type="file" id="inputGroupFile04" class="custom-file-input">
-            <label _ngcontent-dim-c103="" for="inputGroupFile04">
+            <label _ngcontent-dim-c103="" for="inputGroupFile04" class="btn-residencia">
               <img src="../../assets/imag/clips-5.svg" width="20">
             </label>
           </div>
@@ -215,7 +166,7 @@
           <div>DUT de Transferência</div>
           <div _ngcontent-dim-c103="" class="custom-file">
             <input _ngcontent-dim-c103="" style="width:0" type="file" id="inputGroupFile04" class="custom-file-input">
-            <label _ngcontent-dim-c103="" for="inputGroupFile04">
+            <label _ngcontent-dim-c103="" for="inputGroupFile04" class="btn-DUT">
               <!-- <div class=""> --><div>
                 <img src="../../assets/imag/clips-5.svg" width="20" class="mx-5"></div>
             </label>
@@ -226,17 +177,33 @@
           Termo de quitação
           <div _ngcontent-dim-c103="" class="custom-file">
             <input _ngcontent-dim-c103="" style="width:0" type="file" id="inputGroupFile04" class="custom-file-input">
-            <label _ngcontent-dim-c103="" for="inputGroupFile04">
+            <label _ngcontent-dim-c103="" for="inputGroupFile04" class="btn-termo">
               <img src="../../assets/imag/clips-5.svg" width="20">
             </label>
+
+
+        <div class="container">
+          <div class="row">
+            <div class="col mx-5 box10 ">
+              <br>
+            <h4>Código de Postagem<img src="../../assets/imag/interrogacao.jpg"
+                width="30" class="ml-5"></h4>
+
+            <div>Dirija-se a uma agência dos Correios<br>
+              e utilize o código de postagem para<br> o envio de documentos originais do<br>
+              sinistro.</div>
+            <p><strong>Não é necessário informar o<br> endereço da Azul Seguros.</strong></p><br>
+
+            <h2 class="ml-5">123456789-10</h2>
+            </div>
           </div>
-        </div>
+        </div><br><br>
+
 
       </div>
     </div>
   </div>
-</div>
-</div>
-</div>
+
+
 
 <router-outlet></router-outlet>

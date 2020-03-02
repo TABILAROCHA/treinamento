@@ -10,6 +10,7 @@ import { PesquisaComponent } from './pesquisa/pesquisa.component';
 import { BuscaComponent } from './busca/busca.component';
 import { MenuComponent } from './menu/menu.component';
 import { TipoDeEventoComponent } from './tipo-de-evento/tipo-de-evento.component';
+import { DadosDoClienteComponent } from './dados-do-cliente/dados-do-cliente.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { TipoDeEventoComponent } from './tipo-de-evento/tipo-de-evento.component
     PesquisaComponent,
     BuscaComponent,
     MenuComponent,
-    TipoDeEventoComponent
+    TipoDeEventoComponent,
+    DadosDoClienteComponent
   ],
   imports: [
     BrowserModule,
