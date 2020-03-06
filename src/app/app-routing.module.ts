@@ -1,4 +1,4 @@
-import { EnvioDeDocumentoComponent } from './envio-de-documento/envio-de-documento.component';
+
 import { TipoDeEventoComponent } from './tipo-de-evento/tipo-de-evento.component';
 import { DadosDoClienteComponent } from './dados-do-cliente/dados-do-cliente.component';
 import { MenuPaginaDoisComponent } from './menu-pagina-dois/menu-pagina-dois.component';
@@ -15,8 +15,8 @@ const routes: Routes = [
   {path: 'pesquisa', component: PesquisaComponent },
   {path: 'menupaginadois', component: MenuPaginaDoisComponent },
   {path: 'dadosdocliente', component: DadosDoClienteComponent },
-  {path: 'tipodeevento', component: TipoDeEventoComponent },
-  {path: 'enviodedocumento', component: EnvioDeDocumentoComponent }
+  {path: 'tipodeevento', component: TipoDeEventoComponent }
+
 ];
 
 @NgModule({

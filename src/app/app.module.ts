@@ -11,8 +11,9 @@ import { BuscaComponent } from './busca/busca.component';
 import { MenuComponent } from './menu/menu.component';
 import { TipoDeEventoComponent } from './tipo-de-evento/tipo-de-evento.component';
 import { DadosDoClienteComponent } from './dados-do-cliente/dados-do-cliente.component';
-import { EnvioDeDocumentoComponent } from './envio-de-documento/envio-de-documento.component';
+
 import { MenuPaginaDoisComponent } from './menu-pagina-dois/menu-pagina-dois.component';
+
 
 @NgModule({
   declarations: [
@@ -22,7 +23,6 @@ import { MenuPaginaDoisComponent } from './menu-pagina-dois/menu-pagina-dois.com
     MenuComponent,
     TipoDeEventoComponent,
     DadosDoClienteComponent,
-    EnvioDeDocumentoComponent,
     MenuPaginaDoisComponent
   ],
   imports: [

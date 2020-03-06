@@ -1,5 +1,39 @@
-.m {
-  margin: 0px;
-  margin-top: 0em;
+.btn-enviado {
+  margin-left: 15%;
+}
+.btn-reenviar {
+  margin-left: 22%;
+}
+.btn-IPVA {
+  margin-left: 25.8%;
+}
+.btn-bancaria {
+  margin-left: 32.9%;
+}
+.btn-residencia {
+  margin-left: 35.5%;
+}
+.btn-DUT {
+  margin-left: 33.4%;
+}
+.btn-termo {
+  margin-left: 40.8%;
+}
+.btn-envio {
+  margin-left: 95%;
+}
+.pos {
+  margin-left: 55%;
+
+}
+.box10 {
+  margin: 2%;
+  left: 39px;
+  width: 10px;
+  height: 750px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 16px #00000029;
+  border-radius: 16px;
+  opacity: 1;
 
 }
