@@ -13,6 +13,8 @@ import { TipoDeEventoComponent } from './tipo-de-evento/tipo-de-evento.component
 import { DadosDoClienteComponent } from './dados-do-cliente/dados-do-cliente.component';
 
 import { MenuPaginaDoisComponent } from './menu-pagina-dois/menu-pagina-dois.component';
+import { BuscaSinistroComponent } from './busca-sinistro/busca-sinistro.component';
+import { AcompanhamentoComponent } from './acompanhamento/acompanhamento.component';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { MenuPaginaDoisComponent } from './menu-pagina-dois/menu-pagina-dois.com
     MenuComponent,
     TipoDeEventoComponent,
     DadosDoClienteComponent,
-    MenuPaginaDoisComponent
+    MenuPaginaDoisComponent,
+    BuscaSinistroComponent,
+    AcompanhamentoComponent
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,5 @@
+import { AcompanhamentoComponent } from './acompanhamento/acompanhamento.component';
+import { BuscaSinistroComponent } from './busca-sinistro/busca-sinistro.component';
 
 import { TipoDeEventoComponent } from './tipo-de-evento/tipo-de-evento.component';
 import { DadosDoClienteComponent } from './dados-do-cliente/dados-do-cliente.component';
@@ -10,13 +12,9 @@ import { MenuComponent } from './menu/menu.component';
 
 
 const routes: Routes = [
-  {path: 'menu ', component: MenuComponent },
-  {path: 'busca', component: BuscaComponent },
-  {path: 'pesquisa', component: PesquisaComponent },
-  {path: 'menupaginadois', component: MenuPaginaDoisComponent },
-  {path: 'dadosdocliente', component: DadosDoClienteComponent },
-  {path: 'tipodeevento', component: TipoDeEventoComponent }
-
+  { path: '', component: BuscaSinistroComponent }, // colocar o componente busca sinistro - trocar MenuComponent
+  { path: 'acompanhamento', component: AcompanhamentoComponent } // colocar um novo comp. sinistro
+// html <a routerLink="/acompanhamento" routerLinkActive="active">Crisis Center</a>
 ];
 
 @NgModule({

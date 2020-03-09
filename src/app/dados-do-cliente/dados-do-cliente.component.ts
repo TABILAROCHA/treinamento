@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DadosDoClienteComponent implements OnInit {
 
+
+
   constructor() { }
 
   ngOnInit(): void {
